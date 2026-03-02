@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-02 14:22:18",
+  "lastUpdate": "2026-03-02 14:22:29",
   "news": [
     {
       "id": 1,
@@ -7,7 +7,7 @@
       "excerpt": "深入分析一人公司行业发展趋势，探索最具潜力的创业方向和盈利模式。",
       "tag": "行业趋势",
       "date": "2026-03-02",
-      "readTime": "10分钟",
+      "readTime": "7分钟",
       "image": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
     {
@@ -16,7 +16,7 @@
       "excerpt": "真实的一人公司成功故事，揭示背后的创业策略和运营方法。",
       "tag": "成功案例",
       "date": "2026-03-02",
-      "readTime": "4分钟",
+      "readTime": "3分钟",
       "image": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
     },
     {
@@ -25,7 +25,7 @@
       "excerpt": "探讨AI技术如何赋能一人公司，提升效率和竞争力。",
       "tag": "AI与创业",
       "date": "2026-03-02",
-      "readTime": "9分钟",
+      "readTime": "7分钟",
       "image": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
     },
     {
@@ -34,7 +34,7 @@
       "excerpt": "解析数字产品的变现策略，帮助一人公司实现可持续收入。",
       "tag": "产品变现",
       "date": "2026-03-02",
-      "readTime": "8分钟",
+      "readTime": "5分钟",
       "image": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
     },
     {
@@ -43,7 +43,7 @@
       "excerpt": "深入分析一人公司行业发展趋势，探索最具潜力的创业方向和盈利模式。",
       "tag": "行业趋势",
       "date": "2026-03-02",
-      "readTime": "7分钟",
+      "readTime": "4分钟",
       "image": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
     },
     {
@@ -52,7 +52,7 @@
       "excerpt": "真实的一人公司成功故事，揭示背后的创业策略和运营方法。",
       "tag": "成功案例",
       "date": "2026-03-02",
-      "readTime": "7分钟",
+      "readTime": "9分钟",
       "image": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)"
     }
   ]
