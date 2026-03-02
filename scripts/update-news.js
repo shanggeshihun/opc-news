@@ -1,6 +1,10 @@
 // 爬虫脚本 - 抓取一人公司相关新闻
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 模拟新闻数据源（实际项目中可接入真实 API）
 const newsSources = [
@@ -10,7 +14,9 @@ const newsSources = [
       "2026年最赚钱的10个一人公司赛道",
       "一人公司崛起：为什么越来越多人选择单干",
       "AI赋能：一人公司的下一个黄金时代",
-      "2026年独立开发者收入报告发布"
+      "2026年独立开发者收入报告发布",
+      "自由职业市场分析：一人公司新机遇",
+      "远程办公趋势：一人公司成为主流"
     ]
   },
   {
@@ -19,7 +25,9 @@ const newsSources = [
       "从副业到月入10万：95后设计师的独立之路",
       "独立开发者月入$50K的真实故事",
       "一人公司如何做到年入百万",
-      "从0到1：一人公司创业成功案例分享"
+      "从0到1：一人公司创业成功案例分享",
+      "程序员转型一人公司：3个月实现盈利",
+      "自由职业者如何建立个人品牌"
     ]
   },
   {
@@ -28,7 +36,9 @@ const newsSources = [
       "AI时代，一人公司如何保持竞争力",
       "用AI工具提升10倍效率的方法",
       "一人公司必备的AI工具清单",
-      "AI如何改变一人公司的运营模式"
+      "AI如何改变一人公司的运营模式",
+      "ChatGPT助力一人公司内容创作",
+      "AI自动化：一人公司效率革命"
     ]
   },
   {
@@ -37,7 +47,9 @@ const newsSources = [
       "Notion模板创作者月入$50K的秘密",
       "如何通过数字产品实现被动收入",
       "一人公司产品定价策略解析",
-      "从免费到付费：产品变现之路"
+      "从免费到付费：产品变现之路",
+      "SaaS产品如何快速获得首批用户",
+      "订阅制商业模式详解"
     ]
   }
 ];
@@ -133,7 +145,7 @@ function updateData() {
   };
   
   // 确保目录存在
-  const dataDir = path.join(__dirname, 'public', 'data');
+  const dataDir = path.join(__dirname, '..', 'public', 'data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }

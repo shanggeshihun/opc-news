@@ -1,59 +1,41 @@
 {
-  "lastUpdate": "2026-03-02 08:00:00",
+  "lastUpdate": "2026-03-02 13:48:38",
   "business": [
     {
-      "id": 1,
       "name": "Copy.ai",
       "founder": "Paul Yacoubian",
       "revenue": "$10M+/年",
-      "model": "AI写作工具，通过SaaS订阅模式盈利。为营销人员提供AI驱动的文案生成服务，个人版$49/月，团队版$249/月。",
-      "tags": ["AI工具", "SaaS", "订阅制"],
+      "model": "AI写作工具，通过SaaS订阅模式盈利。为营销人员提供AI驱动的文案生成服务。",
+      "tags": [
+        "AI工具",
+        "SaaS",
+        "订阅制"
+      ],
       "founded": "2020"
     },
     {
-      "id": 2,
       "name": "Gumroad",
       "founder": "Sahil Lavingia",
       "revenue": "$100M+ GMV/年",
-      "model": "数字产品销售平台，收取交易佣金。创作者可以销售电子书、课程、软件等产品，平台抽成10%。",
-      "tags": ["创作者经济", "平台", "交易佣金"],
+      "model": "数字产品销售平台，收取交易佣金。创作者可以销售电子书、课程、软件等产品。",
+      "tags": [
+        "创作者经济",
+        "平台",
+        "交易佣金"
+      ],
       "founded": "2011"
     },
     {
-      "id": 3,
       "name": "Nomad List",
       "founder": "Pieter Levels",
       "revenue": "$3M+/年",
       "model": "数字游民社区，通过会员订阅和广告盈利。提供城市数据、社区论坛和远程工作机会。",
-      "tags": ["社区", "数据服务", "会员制"],
+      "tags": [
+        "社区",
+        "数据服务",
+        "会员制"
+      ],
       "founded": "2014"
-    },
-    {
-      "id": 4,
-      "name": "Carrd",
-      "founder": "AJ",
-      "revenue": "$1M+/年",
-      "model": "单页网站构建工具，免费增值模式。基础功能免费，高级功能和自定义域名需要付费。",
-      "tags": ["工具", "免费增值", "低代码"],
-      "founded": "2016"
-    },
-    {
-      "id": 5,
-      "name": "Piano Encyclopedia",
-      "founder": "Rodrigo Serrao",
-      "revenue": "$500K+/年",
-      "model": "在线钢琴教育平台，通过销售课程和会员订阅盈利。专注古典钢琴教学。",
-      "tags": ["教育", "内容付费", "垂直领域"],
-      "founded": "2018"
-    },
-    {
-      "id": 6,
-      "name": "DesignJoy",
-      "founder": "Brett Williams",
-      "revenue": "$1.5M+/年",
-      "model": "订阅制设计服务，客户支付月费即可获得无限设计服务。通过标准化流程和模板化设计实现规模化。",
-      "tags": ["订阅制", "设计服务", "代理模式"],
-      "founded": "2017"
     }
   ]
 }
