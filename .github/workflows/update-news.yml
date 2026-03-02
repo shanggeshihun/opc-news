@@ -1,5 +1,7 @@
 name: Update News Daily
 
+permissions:                                                                     
+       contents: write   
 on:
   schedule:
     # 每天 UTC 00:00 运行 (北京时间 08:00)
