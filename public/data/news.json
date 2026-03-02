@@ -1,0 +1,59 @@
+{
+  "lastUpdate": "2026-03-02 08:00:00",
+  "news": [
+    {
+      "id": 1,
+      "title": "2026年最赚钱的10个一人公司赛道",
+      "excerpt": "从AI工具到内容创作，这些领域正成为 solo entrepreneur 的掘金热土。深入分析每个赛道的盈利模式和入门门槛。",
+      "tag": "行业趋势",
+      "date": "2026-03-02",
+      "readTime": "5分钟",
+      "image": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "title": "从副业到月入10万：95后设计师的独立之路",
+      "excerpt": "分享一位95后设计师如何从周末接私活，发展到建立个人品牌，最终实现月入10万的完整经历。",
+      "tag": "成功案例",
+      "date": "2026-03-02",
+      "readTime": "8分钟",
+      "image": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+    },
+    {
+      "id": 3,
+      "title": "AI时代，一人公司如何保持竞争力？",
+      "excerpt": "AI工具降低了创业门槛，但也带来了激烈竞争。本文探讨 solo founder 如何在AI时代建立护城河。",
+      "tag": "AI与创业",
+      "date": "2026-03-01",
+      "readTime": "6分钟",
+      "image": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+    },
+    {
+      "id": 4,
+      "title": "Notion模板创作者月入$50K的秘密",
+      "excerpt": "看似简单的Notion模板生意，如何做到月入5万美元？揭示背后的产品策略和营销技巧。",
+      "tag": "产品变现",
+      "date": "2026-03-01",
+      "readTime": "7分钟",
+      "image": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
+    },
+    {
+      "id": 5,
+      "title": "独立开发者必备的10个工具",
+      "excerpt": "从开发、设计到营销、收款，一人公司需要哪些工具？推荐10个必备神器及其使用技巧。",
+      "tag": "工具推荐",
+      "date": "2026-02-28",
+      "readTime": "4分钟",
+      "image": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
+    },
+    {
+      "id": 6,
+      "title": "为什么越来越多的大厂员工选择单干？",
+      "excerpt": "逃离996、追求自由、实现价值，三个真实故事揭示大厂员工转型一人公司的内心驱动力。",
+      "tag": "职场转型",
+      "date": "2026-02-28",
+      "readTime": "9分钟",
+      "image": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)"
+    }
+  ]
+}
