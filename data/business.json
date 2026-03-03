@@ -1,0 +1,41 @@
+{
+  "lastUpdate": "2026-03-03 01:06:56",
+  "business": [
+    {
+      "name": "Copy.ai",
+      "founder": "Paul Yacoubian",
+      "revenue": "$10M+/年",
+      "model": "AI写作工具，通过SaaS订阅模式盈利。为营销人员提供AI驱动的文案生成服务。",
+      "tags": [
+        "AI工具",
+        "SaaS",
+        "订阅制"
+      ],
+      "founded": "2020"
+    },
+    {
+      "name": "Gumroad",
+      "founder": "Sahil Lavingia",
+      "revenue": "$100M+ GMV/年",
+      "model": "数字产品销售平台，收取交易佣金。创作者可以销售电子书、课程、软件等产品。",
+      "tags": [
+        "创作者经济",
+        "平台",
+        "交易佣金"
+      ],
+      "founded": "2011"
+    },
+    {
+      "name": "Nomad List",
+      "founder": "Pieter Levels",
+      "revenue": "$3M+/年",
+      "model": "数字游民社区，通过会员订阅和广告盈利。提供城市数据、社区论坛和远程工作机会。",
+      "tags": [
+        "社区",
+        "数据服务",
+        "会员制"
+      ],
+      "founded": "2014"
+    }
+  ]
+}
