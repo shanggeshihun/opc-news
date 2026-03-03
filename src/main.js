@@ -7,8 +7,8 @@ let lastUpdate = ''
 async function fetchData() {
   try {
     const [newsRes, businessRes] = await Promise.all([
-      fetch('./data/news.json'),
-      fetch('./data/business.json')
+      fetch('/data/news.json'),
+      fetch('/data/business.json')
     ])
     const newsJson = await newsRes.json()
     const businessJson = await businessRes.json()
