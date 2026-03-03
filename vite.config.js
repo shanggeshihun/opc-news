@@ -1,6 +1,17 @@
 import { defineConfig } from 'vite'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
+  plugins: [
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'public/data',
+          dest: 'data'
+        }
+      ]
+    })
+  ],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -8,7 +19,6 @@ export default defineConfig({
       output: {
         manualChunks: undefined
       }
-    },
-    copyPublicDir: true  // 确保复制 public 文件夹
+    }
   }
 })
