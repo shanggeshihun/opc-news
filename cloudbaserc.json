@@ -1,0 +1,27 @@
+{
+  "envId": "{{envId}}",
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "./functions",
+  "functions": [],
+  "framework": {
+    "name": "opc-news",
+    "plugins": {
+      "static": {
+        "use": "@cloudbase/framework-plugin-static",
+        "inputs": {
+          "outputPath": "dist",
+          "cloudPath": "/",
+          "headers": {
+            "/*": [
+              {
+                "key": "Cache-Control",
+                "value": "max-age=86400"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
