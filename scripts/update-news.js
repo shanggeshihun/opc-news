@@ -166,5 +166,10 @@ function updateData() {
   console.log(`数据更新完成: ${timeStr}`);
 }
 
-// 执行更新
-updateData();
+// 执行更新（仅在直接运行时）
+if (import.meta.url === `file://${process.argv[1]}`) {
+  updateData();
+}
+
+// 导出函数供调度器使用
+export { updateData };

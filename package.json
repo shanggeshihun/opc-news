@@ -3,13 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+"scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update-news": "node scripts/update-news.js",
+    "scheduler": "node scripts/scheduler.js",
+    "scheduler:start": "node scripts/scheduler.js start",
+    "scheduler:stop": "node scripts/scheduler.js stop",
+    "scheduler:update": "node scripts/scheduler.js update"
   },
   "devDependencies": {
     "vite": "^5.4.14",
     "vite-plugin-static-copy": "^3.2.0"
+  },
+  "dependencies": {
+    "node-cron": "^4.2.1"
   }
 }
