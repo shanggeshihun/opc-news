@@ -37,3 +37,35 @@ jobs:
           git add public/data/*.json
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update news data"
           git push
+
+  deploy-to-cloudbase:
+    runs-on: ubuntu-latest
+    needs: update-news
+    if: always()
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Install CloudBase CLI
+        run: npm install -g @cloudbase/cli
+        
+      - name: Deploy to CloudBase
+        env:
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          CLOUDBASE_ENV_ID: ${{ secrets.CLOUDBASE_ENV_ID }}
+        run: |
+          tcb login --apiSecretId $TENCENT_SECRET_ID --apiSecretKey $TENCENT_SECRET_KEY
+          tcb framework deploy -e $CLOUDBASE_ENV_ID
