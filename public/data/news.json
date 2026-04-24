@@ -1,58 +1,58 @@
 {
-  "lastUpdate": "2026-04-23 03:31:12",
+  "lastUpdate": "2026-04-24 03:33:42",
   "news": [
     {
       "id": 1,
-      "title": "远程办公趋势：一人公司成为主流",
+      "title": "2026年最赚钱的10个一人公司赛道",
       "excerpt": "深入分析一人公司行业发展趋势，探索最具潜力的创业方向和盈利模式。",
       "tag": "行业趋势",
-      "date": "2026-04-23",
-      "readTime": "3分钟",
+      "date": "2026-04-24",
+      "readTime": "4分钟",
       "image": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
     {
       "id": 2,
-      "title": "从副业到月入10万：95后设计师的独立之路",
+      "title": "独立开发者月入$50K的真实故事",
       "excerpt": "真实的一人公司成功故事，揭示背后的创业策略和运营方法。",
       "tag": "成功案例",
-      "date": "2026-04-23",
-      "readTime": "8分钟",
+      "date": "2026-04-24",
+      "readTime": "10分钟",
       "image": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
     },
     {
       "id": 3,
-      "title": "用AI工具提升10倍效率的方法",
+      "title": "一人公司必备的AI工具清单",
       "excerpt": "探讨AI技术如何赋能一人公司，提升效率和竞争力。",
       "tag": "AI与创业",
-      "date": "2026-04-23",
-      "readTime": "10分钟",
+      "date": "2026-04-24",
+      "readTime": "8分钟",
       "image": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
     },
     {
       "id": 4,
-      "title": "一人公司产品定价策略解析",
+      "title": "从免费到付费：产品变现之路",
       "excerpt": "解析数字产品的变现策略，帮助一人公司实现可持续收入。",
       "tag": "产品变现",
-      "date": "2026-04-23",
-      "readTime": "9分钟",
+      "date": "2026-04-24",
+      "readTime": "8分钟",
       "image": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
     },
     {
       "id": 5,
-      "title": "2026年独立开发者收入报告发布",
+      "title": "自由职业市场分析：一人公司新机遇",
       "excerpt": "深入分析一人公司行业发展趋势，探索最具潜力的创业方向和盈利模式。",
       "tag": "行业趋势",
-      "date": "2026-04-23",
-      "readTime": "10分钟",
+      "date": "2026-04-24",
+      "readTime": "8分钟",
       "image": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
     },
     {
       "id": 6,
-      "title": "程序员转型一人公司：3个月实现盈利",
+      "title": "自由职业者如何建立个人品牌",
       "excerpt": "真实的一人公司成功故事，揭示背后的创业策略和运营方法。",
       "tag": "成功案例",
-      "date": "2026-04-23",
-      "readTime": "10分钟",
+      "date": "2026-04-24",
+      "readTime": "5分钟",
       "image": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)"
     }
   ]
