@@ -72,4 +72,4 @@ jobs:
           TENCENTCLOUD_SECRETID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENTCLOUD_SECRETKEY: ${{ secrets.TENCENT_SECRET_KEY }}
           CLOUDBASE_ENV_ID: ${{ secrets.CLOUDBASE_ENV_ID }}
-        run: tcb framework deploy -e $CLOUDBASE_ENV_ID
+        run: tcb hosting deploy ./dist -e $CLOUDBASE_ENV_ID
