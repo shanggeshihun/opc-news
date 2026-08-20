@@ -71,9 +71,19 @@ jobs:
         env:
           TENCENTCLOUD_SECRETID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENTCLOUD_SECRETKEY: ${{ secrets.TENCENT_SECRET_KEY }}
-        run: cloudbase login --apiKeyId "$TENCENTCLOUD_SECRETID" --apiKey "$TENCENTCLOUD_SECRETKEY"
+        run: |
+          if [ -z "$TENCENTCLOUD_SECRETID" ] || [ -z "$TENCENTCLOUD_SECRETKEY" ]; then
+            echo "::error::TENCENT_SECRET_ID 或 TENCENT_SECRET_KEY 未在 GitHub 仓库 Secrets 中配置"
+            exit 1
+          fi
+          cloudbase login --apiKeyId "$TENCENTCLOUD_SECRETID" --apiKey "$TENCENTCLOUD_SECRETKEY"
 
       - name: Deploy to CloudBase
         env:
           CLOUDBASE_ENV_ID: ${{ secrets.CLOUDBASE_ENV_ID }}
-        run: cloudbase hosting deploy ./dist -e "$CLOUDBASE_ENV_ID"
+        run: |
+          if [ -z "$CLOUDBASE_ENV_ID" ]; then
+            echo "::error::CLOUDBASE_ENV_ID 未在 GitHub 仓库 Secrets 中配置"
+            exit 1
+          fi
+          cloudbase hosting deploy ./dist -e "$CLOUDBASE_ENV_ID"
